@@ -20,8 +20,11 @@ app.directive("mainHeader", ['$compile', function ($compile) {
                     $("#sidenav-header").hide();
                     $("#sidenav-header-logo").show();
                     $(".main-navbar").toggleClass("shrink");
-                    $("#sub-page-wrapper").removeClass("page-wrapper");
+                    // $("#sub-page-wrapper").removeClass("page-wrapper");
                     $("#sub-page-wrapper").addClass("no-page-wrapper");
+                    $("#sub-page-wrapper").addClass("no-page-wrapper-animate-hide");
+                    
+                    
                     $("nav").addClass("no-nav-wrapper")
                 } else {
                     $("#sidenav-header-logo").hide();
