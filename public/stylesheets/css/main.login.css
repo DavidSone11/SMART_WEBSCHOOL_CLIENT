@@ -67,6 +67,52 @@
     transition: all linear 0.5s;
 }
 
+.forget-password-box input[type="text"] {
+    height: 40px;
+    width: 95%;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: 0 0;
+    padding: 20px 0 10px 25px;
+    margin: 20px 0 0 0px;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    padding: 0;
+}
+.forget-password-box h1{
+    padding: 8px 90px;
+    color:#FFFF00!important;
+    opacity: 0.5;
+}
+
+.forget-password-box p{
+    margin: 10px 0 0 90px;
+    color:#8E44AD!important;
+    opacity: 0.8;
+}
+.forget-password-box input[type="submit"].reset-password-button {
+    height: 40px;
+    width: 90px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #000;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.forget-password-box input[type="submit"].reset-password-button:hover {
+    color: #fff;
+    background: rgba(202, 215, 14, 0.9) !important;
+    
+}
+
+
 .login-box .iconspan {
     float: left;
     margin-top: -24px;
@@ -82,7 +128,7 @@
     height: 100px;
     border-radius: 50%;
     position: absolute;
-    top: -15%;
+    top: -12%;
     left: calc( 50% - 50px);
 }
 
@@ -141,7 +187,7 @@
 .login-box input[type="submit"].login-button:hover {
     color: #fff;
     background: rgba(202, 215, 14, 0.9) !important;
-    ;
+    
 }
 
 .is-hide.ng-hide {
