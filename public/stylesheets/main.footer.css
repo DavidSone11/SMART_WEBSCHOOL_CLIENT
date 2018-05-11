@@ -1,0 +1,14 @@
+footer.main-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: #222;
+    box-shadow: 2px 2px 7px 2px #000;
+    padding: 10px 0;
+}
+
+footer.main-footer p {
+
+    color:#fff;
+
+}
