@@ -19,6 +19,8 @@
     box-sizing: border-box;
     box-shadow: 0px 10px 10px 0px #000;
     transform: translate(-10%, 5%);
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
 }
 
 .registeration-box {
@@ -26,25 +28,28 @@
     height: 400px;
     background: rgba(0, 0, 0, 0.5);
     top: 15%;
-    left: 5%;
+    left: 40%;
     position: absolute;
     box-sizing: border-box;
     box-shadow: 0px 10px 10px 0px #000;
     transform: translate(-10%, 5%);
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
 }
 
-.forget-password-box{
+.forget-password-box {
     width: 450px;
     height: 250px;
     background: rgba(0, 0, 0, 0.5);
     top: 15%;
-    left: 65%;
+    left: 40%;
     position: absolute;
     box-sizing: border-box;
     box-shadow: 0px 10px 10px 0px #000;
     transform: translate(-10%, 5%);
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
 }
-
 
 .login-box .iconspan {
     float: left;
@@ -52,7 +57,7 @@
     margin-left: 5px;
     position: relative;
     z-index: 2;
-    color: rgba(255,255,255,0.6);
+    color: rgba(255, 255, 255, 0.6);
     font-size: 20px;
 }
 
@@ -91,8 +96,8 @@
 
 ::placeholder {
     color: rgba(255, 255, 255, 0.9);
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 .login-box input[type="password"].password-box {
@@ -118,17 +123,23 @@
 
 .login-box input[type="submit"].login-button:hover {
     color: #fff;
-    background:  rgba(202,215,14,0.9)!important;;
+    background: rgba(202, 215, 14, 0.9) !important;
+    ;
 }
 
 .login-box a {
     color: #fff;
     font-size: 0.8rem;
     font-weight: bold;
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 .login-box a :hover {
-    text-decoration: none!important;
-    color: rgba(0,255,0,0.9)!important;
+    text-decoration: none !important;
+    color: rgba(0, 255, 0, 0.9) !important;
+}
+
+.is-hide.ng-hide {
+    opacity: 0;
+    /* transform: scale(0.8); */
 }

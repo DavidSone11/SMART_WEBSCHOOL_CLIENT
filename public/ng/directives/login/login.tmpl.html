@@ -1,5 +1,5 @@
 <div class="login-wrapper">
-    <div class="login-box">
+    <div class="login-box is-hide" ng-hide="isRegister;isForget">
         <img src="../../../images/images.png" class="avatar" />
         <h1>Log In Here</h1>
 
@@ -11,21 +11,21 @@
             <input type="submit" class="login-button" value="SIGN IN" />
         </form>
 
-        <a href="#">Forget Password ?</a>
+        <a href="#" ng-click="isForget= !isForget">Forget Password ?</a>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="#">Registeration ?</a>
+        <a href="#" ng-click="isRegister= !isRegister">Registeration ?</a>
     </div>
 
     <!--  Reg-->
 
-    <div class="registeration-box">
+    <div class="registeration-box is-hide" ng-show="isRegister">
 
         <h1 style="color:#fff">Sign Up Here</h1>
 
         <form role="form" ng-submit="login(username,password)">
-            <input type="text" id="inputEmail" placeholder="Username" class="userbox-box" required autofocus ng-model="">
+            <input type="text" id="reg1" placeholder="Username" class="userbox-box" required autofocus ng-model="reg1">
             <span class="fa fa-user iconspan"></span>
-            <input type="password" id="inputPassword" placeholder="Password" class="password-box" required ng-model="">
+            <input type="password" id="reg2" placeholder="Password" class="password-box" required ng-model="reg2">
             <span class="fa fa-lock iconspan"></span>
             <input type="submit" class="login-button" value="SIGN IN" />
         </form>
@@ -36,14 +36,14 @@
 
     <!--  Forget -->
 
-    <div class="forget-password-box">
+    <div class="forget-password-box is-hide" ng-show="isForget">
 
         <h1 style="color:#fff">Forget Password</h1>
 
         <form role="form" ng-submit="login(username,password)">
-            <input type="text" id="resetPassword" placeholder="Username" class="userbox-box" required autofocus ng-model="">
+            <input type="text" id="resetPassword" placeholder="Username" class="userbox-box" required autofocus ng-model="confirm">
             <span class="fa fa-user iconspan"></span>
-            <input type="text" id="confirmresetPassword" placeholder="Password" class="password-box" required ng-model="">
+            <input type="text" id="confirmresetPassword" placeholder="Password" class="password-box" required ng-model="isconfirm">
             <span class="fa fa-lock iconspan"></span>
             <input type="submit" class="login-button" value="RESET PASSWORD" />
         </form>
