@@ -1,24 +1,16 @@
 <div class="login-wrapper">
+    <div class="login-box">
+        <img src="../../../images/images.png" class="avatar" />
+        <h1>Log In Here</h1>
 
+        <form role="form" ng-submit="login(username,password)">
+            <input type="text" id="inputEmail" placeholder="Username" class="userbox-box" required autofocus ng-model="username">
+            <input type="password" id="inputPassword" placeholder="Password" class="password-box" required ng-model="password">
+            <input type="submit" class="login-button" value="SIGN IN"></input>
+        </form>
 
-
-    <div class="row">
-        <div class="col-md-6 col-md-offset-6">
-            <div class="login-box">
-                <img src="../../../images/images.png" class="avatar" />
-                <h1>Log In Here</h1>
-
-                <form role="form" ng-submit="login(username,password)">
-                    <input type="text" id="inputEmail" placeholder="Username" class="userbox-box" required autofocus ng-model="username">
-                    <input type="password" id="inputPassword" placeholder="Password" class="password-box" required ng-model="password">
-
-
-                    <input type="submit" class="login-button" value="LOGIN"></input>
-                    <a href="#">Forget Password</a>
-
-                </form>
-
-            </div>
-        </div>
+        <a href="#">Forget Password ?</a>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="#">Registeration ?</a>
     </div>
 </div>
