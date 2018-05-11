@@ -21,6 +21,41 @@
     transform: translate(-10%, 5%);
 }
 
+.registeration-box {
+    width: 300px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 15%;
+    left: 5%;
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 10px 0px #000;
+    transform: translate(-10%, 5%);
+}
+
+.forget-password-box{
+    width: 450px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 15%;
+    left: 65%;
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 10px 0px #000;
+    transform: translate(-10%, 5%);
+}
+
+
+.login-box .iconspan {
+    float: left;
+    margin-top: -24px;
+    margin-left: 5px;
+    position: relative;
+    z-index: 2;
+    color: rgba(255,255,255,0.6);
+    font-size: 20px;
+}
+
 .avatar {
     width: 100px;
     height: 100px;
@@ -30,16 +65,16 @@
     left: calc( 50% - 50px);
 }
 
-.login-box input{
+.login-box input {
     width: 95%;
     margin: 50px 0px 0px 6px;
 }
 
-.login-box h1{
+.login-box h1 {
     color: #fff;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
     margin: 0;
-    padding: 40px 0px 0px 63px;
+    padding: 40px 0px 0px 70px;
     font-size: 1.5rem;
     font-family: 'Roboto Slab', serif;
 }
@@ -49,32 +84,51 @@
     border: none;
     outline: none;
     border-bottom: 1px solid #fff;
-    color:#fff;
+    color: #fff;
     background: transparent;
-    padding: 12px 0px 10px 7px;
+    padding: 20px 0px 10px 25px;
 }
-::placeholder{
-    color:rgba(255,255,255,0.9);
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.9);
+    margin:0;
+    padding:0;
 }
 
 .login-box input[type="password"].password-box {
     height: 40px;
     border: none;
     outline: none;
-    color:#fff;
+    color: #fff;
     border-bottom: 1px solid #fff;
     background: transparent;
-    padding: 12px 0px 10px 7px;
+    padding: 20px 0px 10px 25px;
 }
 
 .login-box input[type="submit"].login-button {
     height: 40px;
     border: none;
     outline: none;
-    color:#fff;
+    color: #fff;
     background: #000;
     font-size: 15px;
     cursor: pointer;
     border-radius: 20px;
+}
 
+.login-box input[type="submit"].login-button:hover {
+    color: #fff;
+    background:  rgba(202,215,14,0.9)!important;;
+}
+
+.login-box a {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none!important;
+}
+
+.login-box a :hover {
+    text-decoration: none!important;
+    color: rgba(0,255,0,0.9)!important;
 }

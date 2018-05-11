@@ -5,12 +5,46 @@
 
         <form role="form" ng-submit="login(username,password)">
             <input type="text" id="inputEmail" placeholder="Username" class="userbox-box" required autofocus ng-model="username">
+            <span class="fa fa-user iconspan"></span>
             <input type="password" id="inputPassword" placeholder="Password" class="password-box" required ng-model="password">
-            <input type="submit" class="login-button" value="SIGN IN"></input>
+            <span class="fa fa-lock iconspan"></span>
+            <input type="submit" class="login-button" value="SIGN IN" />
         </form>
 
         <a href="#">Forget Password ?</a>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <a href="#">Registeration ?</a>
     </div>
+
+    <!--  Reg-->
+
+    <div class="registeration-box">
+
+        <h1 style="color:#fff">Sign Up Here</h1>
+
+        <form role="form" ng-submit="login(username,password)">
+            <input type="text" id="inputEmail" placeholder="Username" class="userbox-box" required autofocus ng-model="username">
+            <span class="fa fa-user iconspan"></span>
+            <input type="password" id="inputPassword" placeholder="Password" class="password-box" required ng-model="password">
+            <span class="fa fa-lock iconspan"></span>
+            <input type="submit" class="login-button" value="SIGN IN" />
+        </form>
+    </div>
+
+
+    <!--  Forget -->
+
+    <div class="forget-password-box">
+
+        <h1 style="color:#fff">Forget Password</h1>
+
+        <form role="form" ng-submit="login(username,password)">
+            <input type="text" id="resetPassword" placeholder="Username" class="userbox-box" required autofocus ng-model="username">
+            <span class="fa fa-user iconspan"></span>
+            <input type="text" id="confirmresetPassword" placeholder="Password" class="password-box" required ng-model="password">
+            <span class="fa fa-lock iconspan"></span>
+            <input type="submit" class="login-button" value="RESET PASSWORD" />
+        </form>
+    </div>
+
 </div>
