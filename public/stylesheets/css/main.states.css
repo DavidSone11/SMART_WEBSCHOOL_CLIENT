@@ -1,0 +1,35 @@
+
+.card-green{
+    border-color:#5cb85c!important;
+}
+
+.card-green .card-header{
+    border-color: #5cb85c;
+    color: #fff;
+    background: linear-gradient(60deg, #5cb85c, #048304);
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+}
+
+.card-red{
+    border-color:red!important;
+}
+
+.card-red .card-header{
+    border-color: red;
+    color: #fff;
+    background: linear-gradient(60deg, #FF5733, rgb(216, 56, 20));
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+}
+
+.card-orange{
+    border-color:#ffa726!important;
+}
+.card-orange .card-header{
+    border-color: #ffa726;
+    color: #fff;
+    
+    background: linear-gradient(60deg, #ffa726, #fb8c00);
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+}
+
+
