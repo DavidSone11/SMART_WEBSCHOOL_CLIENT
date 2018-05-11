@@ -10,11 +10,11 @@
 }
 
 .login-box {
-    width: 450px;
-    height: 350px;
+    width: 300px;
+    height: 400px;
     background: rgba(0, 0, 0, 0.5);
-    top: 80%;
-    left: 60%;
+    top: 80px;
+    left: 80%;
     position: absolute;
     box-sizing: border-box;
     box-shadow: 0px 10px 10px 0px #000;
@@ -31,8 +31,17 @@
 }
 
 .login-box input{
-    width: 100%;
-    margin-bottom: 20px;
+    width: 95%;
+    margin: 50px 0px 0px 6px;
+}
+
+.login-box h1{
+    color: #fff;
+    letter-spacing: 0.3rem;
+    margin: 0;
+    padding: 40px 0px 0px 63px;
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
 }
 
 .login-box input[type="text"].userbox-box {
@@ -60,7 +69,6 @@
     width: 150px;
     border: 1px solid red;
     color:#fff;
-
-    background: peru;
+    background: #000;
 
 }
