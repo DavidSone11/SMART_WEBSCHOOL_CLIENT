@@ -1,7 +1,7 @@
 .login-wrapper {
     margin: 0;
     padding: 0;
-    background: url(../../../images/autumn-colorful-colourful-33109.jpg);
+    background: url(../../../images/68599044-school-wallpapers.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -53,6 +53,9 @@
     background: transparent;
     padding: 12px 0px 10px 7px;
 }
+::placeholder{
+    color:rgba(255,255,255,0.9);
+}
 
 .login-box input[type="password"].password-box {
     height: 40px;
@@ -67,8 +70,10 @@
 .login-box input[type="submit"].login-button {
     height: 40px;
     width: 150px;
-    border: 1px solid red;
+    border: none;
+    outline: none;
     color:#fff;
     background: #000;
+    font-size: 15px;
 
 }
