@@ -23,13 +23,15 @@
         <h1 style="color:#fff">Sign Up Here</h1>
 
         <form role="form" ng-submit="login(username,password)">
-            <input type="text" id="inputEmail" placeholder="Username" class="userbox-box" required autofocus ng-model="username">
+            <input type="text" id="inputEmail" placeholder="Username" class="userbox-box" required autofocus ng-model="">
             <span class="fa fa-user iconspan"></span>
-            <input type="password" id="inputPassword" placeholder="Password" class="password-box" required ng-model="password">
+            <input type="password" id="inputPassword" placeholder="Password" class="password-box" required ng-model="">
             <span class="fa fa-lock iconspan"></span>
             <input type="submit" class="login-button" value="SIGN IN" />
         </form>
     </div>
+
+    <!--   End -->
 
 
     <!--  Forget -->
@@ -39,12 +41,13 @@
         <h1 style="color:#fff">Forget Password</h1>
 
         <form role="form" ng-submit="login(username,password)">
-            <input type="text" id="resetPassword" placeholder="Username" class="userbox-box" required autofocus ng-model="username">
+            <input type="text" id="resetPassword" placeholder="Username" class="userbox-box" required autofocus ng-model="">
             <span class="fa fa-user iconspan"></span>
-            <input type="text" id="confirmresetPassword" placeholder="Password" class="password-box" required ng-model="password">
+            <input type="text" id="confirmresetPassword" placeholder="Password" class="password-box" required ng-model="">
             <span class="fa fa-lock iconspan"></span>
             <input type="submit" class="login-button" value="RESET PASSWORD" />
         </form>
     </div>
+    <!--   End -->
 
 </div>

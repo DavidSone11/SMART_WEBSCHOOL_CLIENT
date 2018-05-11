@@ -3,7 +3,8 @@ var r = (function mainFun() {
     'use strict';
     var app = angular.module('dIApp', [
         'ui.router',
-        'oc.lazyLoad'
+        'oc.lazyLoad',
+        'ngAnimate'
     ]);
 
     var initInjector = angular.injector(['ng']);
