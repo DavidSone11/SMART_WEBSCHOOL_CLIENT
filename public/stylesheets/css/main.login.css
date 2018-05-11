@@ -10,43 +10,59 @@
 }
 
 .login-box {
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     background: rgba(0, 0, 0, 0.5);
-    top: 15%;
-    left: 40%;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     position: absolute;
     box-sizing: border-box;
     box-shadow: 0px 10px 10px 0px #000;
-    transform: translate(-10%, 5%);
     -webkit-transition: all linear 0.5s;
     transition: all linear 0.5s;
+}
+
+.login-box input[type='checkbox'] {
+    width: 20px;
+}
+
+.login-box input[type='checkbox']+label {
+    display: inline-block;
+    width: 200px;
+    color:#fff;
 }
 
 .registeration-box {
     width: 300px;
     height: 400px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.5);
-    top: 15%;
-    left: 40%;
     position: absolute;
     box-sizing: border-box;
     box-shadow: 0px 10px 10px 0px #000;
-    transform: translate(-10%, 5%);
     -webkit-transition: all linear 0.5s;
     transition: all linear 0.5s;
 }
 
 .forget-password-box {
-    width: 450px;
-    height: 250px;
+    width: 600px;
+    height: 420px;
     background: rgba(0, 0, 0, 0.5);
-    top: 15%;
-    left: 40%;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     position: absolute;
     box-sizing: border-box;
     box-shadow: 0px 10px 10px 0px #000;
-    transform: translate(-10%, 5%);
     -webkit-transition: all linear 0.5s;
     transition: all linear 0.5s;
 }
@@ -127,19 +143,8 @@
     ;
 }
 
-.login-box a {
-    color: #fff;
-    font-size: 0.8rem;
-    font-weight: bold;
-    text-decoration: none !important;
-}
-
-.login-box a :hover {
-    text-decoration: none !important;
-    color: rgba(0, 255, 0, 0.9) !important;
-}
-
 .is-hide.ng-hide {
     opacity: 0;
-    /* transform: scale(0.8); */
+    /* transform: scale(0.5,0.5); */
+    transform: skew(60deg, 60deg);
 }

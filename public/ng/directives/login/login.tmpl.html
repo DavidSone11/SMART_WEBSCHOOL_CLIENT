@@ -1,5 +1,5 @@
 <div class="login-wrapper">
-    <div class="login-box is-hide" ng-hide="isRegister;isForget">
+    <div class="login-box is-hide" ng-hide="isRegister||isForget">
         <img src="../../../images/images.png" class="avatar" />
         <h1>Log In Here</h1>
 
@@ -10,6 +10,15 @@
             <span class="fa fa-lock iconspan"></span>
             <input type="submit" class="login-button" value="SIGN IN" />
         </form>
+
+
+        
+            <input id="checkid" type="checkbox" value="test" />
+            <label for="checkid">REMEMBER ME</label>
+
+            <br>
+            <br>
+        
 
         <a href="#" ng-click="isForget= !isForget">Forget Password ?</a>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -38,13 +47,13 @@
 
     <div class="forget-password-box is-hide" ng-show="isForget">
 
-        <h1 style="color:#fff">Forget Password</h1>
+        <h1 style="color:#fff">Reset Your Password</h1>
 
         <form role="form" ng-submit="login(username,password)">
             <input type="text" id="resetPassword" placeholder="Username" class="userbox-box" required autofocus ng-model="confirm">
-            <span class="fa fa-user iconspan"></span>
+
             <input type="text" id="confirmresetPassword" placeholder="Password" class="password-box" required ng-model="isconfirm">
-            <span class="fa fa-lock iconspan"></span>
+
             <input type="submit" class="login-button" value="RESET PASSWORD" />
         </form>
     </div>
