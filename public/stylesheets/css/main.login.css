@@ -127,7 +127,7 @@
 }
 .forget-password-box input[type="submit"].reset-password-button {
     height: 40px;
-    width: 90px;
+    width: 100%;
     border: none;
     outline: none;
     color: #fff;
