@@ -5,6 +5,7 @@ footer.main-footer {
     background: #222;
     box-shadow: 2px 2px 7px 2px #000;
     padding: 10px 0;
+    border:1px solid greenyellow;
 }
 
 footer.main-footer p {
