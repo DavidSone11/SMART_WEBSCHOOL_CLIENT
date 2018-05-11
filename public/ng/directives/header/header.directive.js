@@ -19,23 +19,34 @@ app.directive("mainHeader", ['$compile', function ($compile) {
                 if ($scope.isToggle) {
                     $("#sidenav-header").hide();
                     $("#sidenav-header-logo").show();
+                    $(".main-navbar").toggleClass("shrink");
+                    $("#sub-page-wrapper").removeClass("page-wrapper");
+                    $("#sub-page-wrapper").addClass("no-page-wrapper");
+                    $("nav").addClass("no-nav-wrapper")
                 } else {
                     $("#sidenav-header-logo").hide();
                     $("#sidenav-header").show();
+                    $(".main-navbar").removeClass("shrink");
+                    $("#sub-page-wrapper").addClass("page-wrapper");
+                    $("nav").removeClass("no-nav-wrapper")
+                    $("#sub-page-wrapper").removeClass("no-page-wrapper");
+                    
 
                 }
                 var w = $(window).outerWidth();
                 var h = $(window).outerHeight();
-                e.preventDefault(),
+                // e.preventDefault(),
 
 
-                    (w > 1194) ? ($(".main-navbar").toggleClass("shrink"),
-                        $(".page-wrapper").toggleClass("no-page-wrapper"),
-                        $("nav").toggleClass("no-nav-wrapper")
-                    ) : (
-                            $(".main-navbar").toggleClass("show-sm"),
-                            $(".page-wrapper").toggleClass("active-sm")
-                        )
+                    // (w > 1194) ? ($(".main-navbar").toggleClass("shrink"),
+                    //     //$(".page-wrapper").toggleClass("no-page-wrapper"),
+
+                    //     $("nav").toggleClass("no-nav-wrapper")
+                    // ) : (
+
+                    //         $(".main-navbar").toggleClass("show-sm"),
+                    //         $(".page-wrapper").toggleClass("active-sm")
+                    //     )
 
             }
 
