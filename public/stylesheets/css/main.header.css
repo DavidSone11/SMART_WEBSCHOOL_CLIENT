@@ -10,7 +10,7 @@ nav {
     box-sizing: border-box;
     width: 100%;
     /* box-shadow: 2px 2px 7px 2px #fff; */
-    border-bottom:1px solid greenyellow;
+    border-bottom:2px solid greenyellow;
 }
 
 nav .nav-left {
