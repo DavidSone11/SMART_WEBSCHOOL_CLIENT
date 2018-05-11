@@ -20,23 +20,34 @@
         <br>
 
 
-        <a href="#" ng-click="isForget= !isForget">Forget Password ?</a>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="#" ng-click="isRegister= !isRegister">Registeration ?</a>
+        <a href="#" ng-click="isForget= !isForget">Reset Password </a>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <a href="#" ng-click="isRegister= !isRegister">Registeration </a>
     </div>
 
     <!--  Reg-->
 
     <div class="registeration-box is-hide" ng-show="isRegister">
 
-        <h1 style="color:#fff">Sign Up Here</h1>
+        <h1 style="color:#fff">Register Here</h1>
 
         <form role="form" ng-submit="login(username,password)">
-            <input type="text" id="reg1" placeholder="Username" class="userbox-box" required autofocus ng-model="reg1">
-            <span class="fa fa-user iconspan"></span>
-            <input type="password" id="reg2" placeholder="Password" class="password-box" required ng-model="reg2">
-            <span class="fa fa-lock iconspan"></span>
-            <input type="submit" class="login-button" value="SIGN IN" />
+            <input type="text" id="reg1" placeholder="First Name" class="userbox-box" required autofocus ng-model="reg1">
+
+            <input type="text" id="reg2" placeholder="Last Name" class="password-box" required ng-model="reg2">
+
+            <input type="text" id="reg2" placeholder="Email" class="password-box" required ng-model="reg2">
+
+            <input type="text" id="reg2" placeholder="Password" class="password-box" required ng-model="reg2">
+
+            <input type="text" id="reg2" placeholder="Re-Password" class="password-box" required ng-model="reg2">
+
+            <input type="text" id="reg2" placeholder="Country" class="password-box" required ng-model="reg2">
+            <br>
+            <br>
+            <br>
+            <input type="submit" class="reg-button" ng-click="isRegister= !isRegister" value="REGISTER" />
         </form>
     </div>
 
