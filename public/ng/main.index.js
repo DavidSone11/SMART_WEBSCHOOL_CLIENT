@@ -62,8 +62,8 @@ var r = (function mainFun() {
 
                         return $ocLazyLoad.load([
                             'ng/directives/dashboard/dashboard.controller.js',
-                            
                             'ng/factory/customer.factory.js',
+                            'ng/custom-directives/toggleButton.directive.js',
                             'ng/custom-directives/loading-spinner.directive.js'
 
                         ]
