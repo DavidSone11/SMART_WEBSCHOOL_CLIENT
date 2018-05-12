@@ -13,7 +13,8 @@ app.directive("state", ['$compile', function ($compile) {
             'colour': '@',
             'details': '@',
             'type': '@',
-            'goto': '@'
+            'goto': '@',
+            'size': '@'
         },
 
         controller: function ($scope, $state) {
