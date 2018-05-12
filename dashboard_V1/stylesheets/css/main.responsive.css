@@ -1,0 +1,48 @@
+
+
+@media screen and (min-width:600px) {
+    .side-nav {
+        width: 80px;
+        height: 800px;
+    }
+    nav {
+        display: none!important;
+    }
+    .side-nav ul i {
+        text-align: center;
+    }
+    .side-nav ul li span:nth-child(2) {
+        display: none;
+    }
+    .side-nav ul li i {
+        font-size: 25px;
+    }
+    .page-wrapper {
+        margin-left: 80px;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .side-nav {
+        width: 260px;
+    }
+    nav {
+        display: block!important;
+    }
+    .side-nav ul i {
+        text-align: left;
+    }
+    .side-nav ul li span:nth-child(2) {
+        display: inline-block;
+    }
+    .side-nav ul li i {
+        font-size: 16px;
+    }
+    .page-wrapper {
+        margin: 75px 0 0 265px;
+        position: inherit;
+        margin: 75px 0 0 265px;
+        padding: 0 10px 0 0;
+    }
+}
