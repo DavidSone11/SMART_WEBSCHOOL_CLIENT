@@ -1,0 +1,228 @@
+.login-wrapper {
+    margin: 0;
+    padding: 0;
+    background: url(../../../images/68599044-school-wallpapers.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 635px;
+    overflow: hidden;
+}
+
+.login-box {
+    width: 400px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 10px 0px #000;
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+}
+
+.login-box input[type='checkbox'] {
+    width: 20px;
+}
+
+.login-box input[type='checkbox']+label {
+    display: inline-block;
+    width: 200px;
+    color:#fff;
+}
+
+.registeration-box {
+    width: 500px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 10px 0px #000;
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+}
+
+.registeration-box input[type="text"] {
+    height: 40px;
+    width: 95%;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: 0 0;
+    padding: 0px 0 0px 10px;
+    margin: 10px 0 0 10px;
+}::placeholder {
+    color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    padding: 0;
+}
+
+.registeration-box input[type="submit"].reg-button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: yellowgreen;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.registeration-box input[type="submit"].reg-button:hover {
+    color: #fff;
+    background: rgba(202, 215, 14, 0.9) !important;
+    
+}
+
+.forget-password-box {
+    width: 600px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 10px 0px #000;
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+}
+
+.forget-password-box input[type="text"] {
+    height: 40px;
+    width: 95%;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: 0 0;
+    padding: 0px 0 0px 10px;
+    margin: 10px 0 0 10px;
+}::placeholder {
+    color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    padding: 0;
+}
+.forget-password-box h1{
+    padding: 8px 90px;
+    color:#FFFF00!important;
+    opacity: 0.5;
+}
+
+.forget-password-box p{
+    margin: 10px 0 0 90px;
+    color:#8E44AD!important;
+    opacity: 0.8;
+}
+.forget-password-box input[type="submit"].reset-password-button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #000;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.forget-password-box input[type="submit"].reset-password-button:hover {
+    color: #fff;
+    background: rgba(202, 215, 14, 0.9) !important;
+    
+}
+
+
+.login-box .iconspan {
+    float: left;
+    margin-top: -24px;
+    margin-left: 5px;
+    position: relative;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -12%;
+    left: calc( 50% - 50px);
+}
+
+.login-box input {
+    width: 95%;
+    margin: 50px 0px 0px 6px;
+}
+
+.login-box h1 {
+    color: #fff;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    padding: 40px 0px 0px 130px;
+    /* left: calc( 50% - 50px); */
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.login-box input[type="text"].userbox-box {
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    padding: 20px 0px 10px 25px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+    padding: 0;
+}
+
+.login-box input[type="password"].password-box {
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    padding: 20px 0px 10px 25px;
+}
+
+.login-box input[type="submit"].login-button {
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #000;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"].login-button:hover {
+    color: #fff;
+    background: rgba(202, 215, 14, 0.9) !important;
+    
+}
+
+.is-hide.ng-hide {
+    opacity: 0;
+    /* transform: scale(0.5,0.5); */
+    transform: skew(60deg, 60deg);
+}

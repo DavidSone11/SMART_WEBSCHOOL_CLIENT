@@ -1,0 +1,76 @@
+<div class="login-wrapper">
+    <div class="login-box is-hide" ng-hide="isRegister||isForget">
+        <img src="../../../images/images.png" class="avatar" />
+        <h1>Log In Here</h1>
+
+        <form role="form" ng-submit="login(username,password)">
+            <input type="text" id="lUserName" placeholder="Username" class="userbox-box" required autofocus ng-model="username">
+            <span class="fa fa-user iconspan"></span>
+            <input type="password" id="lPassword" placeholder="Password" class="password-box" required ng-model="password">
+            <span class="fa fa-lock iconspan"></span>
+            <input type="submit" class="login-button" value="SIGN IN" />
+        </form>
+
+
+
+        <input id="checkid" type="checkbox" value="test" />
+        <label for="checkid">REMEMBER ME</label>
+
+        <br>
+        <br>
+
+
+        <a href="#" ng-click="isForget= !isForget">Reset Password </a>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <a href="#" ng-click="isRegister= !isRegister">Registeration </a>
+    </div>
+
+    <!--  Reg-->
+
+    <div class="registeration-box is-hide" ng-show="isRegister">
+
+        <h1 style="color:#fff">Register Here</h1>
+
+        <form role="form" ng-submit="login(username,password)">
+            <input type="text" id="rFirstName" placeholder="First Name" class="userbox-box" required autofocus ng-model="reg1">
+
+            <input type="text" id="rLastName" placeholder="Last Name" class="password-box" required ng-model="reg2">
+
+            <input type="text" id="rEmail" placeholder="Email" class="password-box" required ng-model="reg2">
+
+            <input type="text" id="rPassword" placeholder="Password" class="password-box" required ng-model="reg2">
+
+            <input type="text" id="rRe-Password" placeholder="Re-Password" class="password-box" required ng-model="reg2">
+
+            <input type="text" id="rCountry" placeholder="Country" class="password-box" required ng-model="reg2">
+            <br>
+            <br>
+            <br>
+            <input type="submit" class="reg-button" ng-click="isRegister= !isRegister" value="REGISTER" />
+        </form>
+    </div>
+
+    <!--   End -->
+
+
+    <!--  Forget -->
+
+    <div class="forget-password-box is-hide" ng-show="isForget">
+
+        <h1 style="color:#fff">Reset Your Password</h1>
+        <p style="color:#fff">Hello Santosh Please Enter Your Password 2x to reset</p>
+
+        <form role="form" ng-submit="login(username,password)">
+            <input type="text" id="resetPassword" placeholder="Password" class="userbox-box" required ng-model="confirm">
+            <br>
+            <br>
+            <input type="text" id="confirmresetPassword" placeholder="Confirm Password" class="password-box" ng-model="isconfirm">
+            <br>
+            <br>
+            <input type="submit" class="reset-password-button" ng-click="isForget= !isForget" value="RESET" />
+        </form>
+    </div>
+    <!--   End -->
+
+</div>
