@@ -1,4 +1,5 @@
 
+"use strict";
 var app = angular.module("dIApp");
 app.directive("mainHeader", ['$compile', function ($compile) {
     return {
