@@ -49,6 +49,7 @@ var r = (function mainFun() {
                                 'ng/directives/footer/footer.directive.js',
                                 'ng/directives/states/states.directive.js',
                                 'ng/directives/header/header-notification/header-notification.directive.js',
+                                'ng/factory/auth.Factory.js'
 
                             ]
                         });
