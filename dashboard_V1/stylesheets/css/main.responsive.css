@@ -1,12 +1,11 @@
-
-
 @media screen and (min-width:600px) {
     .side-nav {
         width: 80px;
         height: 1000px;
     }
     nav {
-        display: none!important;
+        width: 100%;
+        left: 80px;
     }
     .side-nav ul li {
         text-align: center;
@@ -19,8 +18,16 @@
     }
     .page-wrapper {
         margin-left: 80px;
+        padding: 100px 5px;
     }
-    
+    .login-box {
+        width: 400px;
+        height: 500px;
+        margin-top: 30%;
+    }
+    nav .nav-right {
+        margin-left: 10px;
+    }
 }
 
 @media screen and (min-width:1000px) {
@@ -28,21 +35,35 @@
         width: 260px;
     }
     nav {
-        display: block!important;
+        left: 260px;
     }
     .side-nav ul li {
         text-align: left;
+        padding: 15px;
+        margin: 0px 7px 3px 3px;
     }
     .side-nav ul li span:nth-child(2) {
         display: inline-block;
+        padding: 5px 30px;
     }
     .side-nav ul li i {
-        font-size: 16px;
+        font-size: 24px;
+        float: left;
+        margin-right: 15px;
+        line-height: 30px;
+        width: 30px;
+        text-align: center;
+        color: #a9afbb;
     }
     .page-wrapper {
         margin: 75px 0 0 265px;
         position: inherit;
         margin: 75px 0 0 265px;
         padding: 0 10px 0 0;
+    }
+    .login-box {
+        width: 400px;
+        height: 500px;
+        margin-top: 0%;
     }
 }

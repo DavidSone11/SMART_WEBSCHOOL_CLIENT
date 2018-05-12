@@ -18,7 +18,7 @@
 
 .side-nav ul li {
     padding: 10px 10px;
-    border-bottom: 1px solid red;
+   
 }
 
 .side-nav ul li a {
@@ -30,3 +30,11 @@
     color: #fff;
 }
 
+/* .side-nav[data-color=rose] li.custom_active>a {
+    background-color: #e91e63;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(233,30,99,.4);
+} */
+.side-nav ul li.custom_active {
+    background-color:rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(233,30,99,.4);
+}
