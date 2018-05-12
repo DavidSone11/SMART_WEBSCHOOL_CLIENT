@@ -4,7 +4,8 @@ var r = (function mainFun() {
     var app = angular.module('dIApp', [
         'ui.router',
         'oc.lazyLoad',
-        'ngAnimate'
+        'ngAnimate',
+        'angular-loading-bar'
     ]);
 
     var initInjector = angular.injector(['ng']);

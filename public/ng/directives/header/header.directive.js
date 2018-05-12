@@ -6,15 +6,27 @@ app.directive("mainHeader", ['$compile', function ($compile) {
         replace: true,
         templateUrl: 'ng/directives/header/header.tmpl.html',
 
-        controller: function ($scope, $state) {
+        controller: function ($scope, $state, authFactory) {
 
 
             $scope.logout = function () {
-                $state.go("login");
+
+
+                authFactory.dologout().then(function success(response) {
+
+                    console.log(response);
+                    $state.go("login");
+
+                }, function error(response) {
+
+                });
+
+
+
 
             }
 
-           
+
 
         }
 

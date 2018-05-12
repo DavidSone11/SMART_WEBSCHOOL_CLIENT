@@ -19,7 +19,7 @@
     background: #000;
 }
 
-.main-navbar:after {
+/* .main-navbar:after {
     position: absolute;
     z-index: 3;
     width: 100%;
@@ -27,7 +27,7 @@
     content: "";
     display: block;
     opacity: .93;
-}
+} */
 
 .main-navbar .main-navbar-menu {
     width: 100%;
