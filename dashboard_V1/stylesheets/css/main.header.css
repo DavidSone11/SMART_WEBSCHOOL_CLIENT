@@ -1,16 +1,18 @@
 nav {
+    
     height: 70px;
     background: rgba(255, 255, 255,0.6);
     z-index: 4;
     position: absolute;
     top: 0;
-    left: 200px;
+    left: 260px;
     padding: 0px 300px 0 0;
     transition: .3s;
     box-sizing: border-box;
     width: 100%;
-    /* box-shadow: 2px 2px 7px 2px #fff; */
+    box-shadow: 2px 2px 7px 2px #fff;
     border-bottom: 2px solid greenyellow;
+    border-left: 2px solid greenyellow;
 }
 
 nav .nav-left {
