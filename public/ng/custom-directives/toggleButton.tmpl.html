@@ -1,0 +1,27 @@
+<div>
+
+    <style>
+        .active,
+        .inactive {
+            font-size: 40px;
+            cursor: pointer;
+           
+        }
+
+        i.active {
+            color: #5cb85c;
+           
+        }
+
+        i.inactive {
+            color: #FF5733;
+           
+        }
+    </style>
+
+    <div class="well">
+        <i class="fa fa-toggle-on active" ng-if="status == true" ng-click="changeStatus();"> </i>
+        <i class="fa fa-toggle-on fa-rotate-180 inactive" ng-if="status == false" ng-click="changeStatus();"> </i>
+    </div>
+    <!-- <pre>{{ status }}</pre> -->
+</div>
