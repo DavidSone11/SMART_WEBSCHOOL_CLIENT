@@ -10,6 +10,13 @@
     box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
 }
 
+.card-green .card-footer{
+    border-color: #5cb85c;
+    color: #fff;
+    background: linear-gradient(60deg, #5cb85c, #048304);
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+}
+
 .card-red{
     border-color:red!important;
 }
@@ -32,6 +39,15 @@
     box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
 }
 
+.card-orange .card-footer{
+    border-color: #ffa726;
+    color: #fff;
+    
+    background: linear-gradient(60deg, #ffa726, #a75e05);
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+}
+
+
 .card-blue{
     border-color:#3498DB!important;
 }
@@ -42,6 +58,15 @@
     background: linear-gradient(60deg, #3498DB, rgb(7, 62, 99));
     box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
 }
+
+.card-blue .card-footer{
+    border-color: #3498DB;
+    color: #fff;
+    
+    background: linear-gradient(60deg, #3498DB, rgb(7, 62, 99));
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+}
+
 
 .card-blue a {
     color: #3498DB;

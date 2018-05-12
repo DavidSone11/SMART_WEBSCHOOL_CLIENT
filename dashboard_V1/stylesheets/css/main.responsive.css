@@ -3,12 +3,12 @@
 @media screen and (min-width:600px) {
     .side-nav {
         width: 80px;
-        height: 800px;
+        height: 1000px;
     }
     nav {
         display: none!important;
     }
-    .side-nav ul i {
+    .side-nav ul li {
         text-align: center;
     }
     .side-nav ul li span:nth-child(2) {
@@ -30,7 +30,7 @@
     nav {
         display: block!important;
     }
-    .side-nav ul i {
+    .side-nav ul li {
         text-align: left;
     }
     .side-nav ul li span:nth-child(2) {
