@@ -1,0 +1,12 @@
+
+.side-nav{
+    position: absolute;
+    width:100%;
+    top:0;
+    left:0;
+    background: #000;
+    color:#fff;
+    height:100vh;
+    z-index: 3;
+    padding-top:20px;
+}
