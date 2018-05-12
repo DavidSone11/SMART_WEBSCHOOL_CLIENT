@@ -28,7 +28,7 @@ var app = angular.module("dIApp").controller("LoginController", function ($scope
                 authFactory.username = res.data.username;
                 authFactory.role = res.data.role;
                 authFactory.token = res.data.token;
-                $state.go("home.dashoard");
+                $state.go("home.dashboard");
 
             });
         }
