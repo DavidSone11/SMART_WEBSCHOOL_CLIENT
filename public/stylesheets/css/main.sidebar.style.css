@@ -9,24 +9,24 @@
     border-right: 2px solid yellowgreen;
     /* box-shadow: 2px 2px 7px 2px #000; */
     transition: all 300ms linear;
-    background-image: url(../../../images/autumn-colorful-colourful-33109.jpg);
+    background-image: url(../../../images/Night_View_of_Tokyo_City_of_Japan_HD_Wallpapers.jpg);
     background-size: cover;
     background-position: center center;
 }
 
 .main-navbar:after {
-    opacity: 0.5;
+    opacity: .8;
     background: #000;
 }
 
-.main-navbar:before, .main-navbar:after {
-    top: 0;
+.main-navbar:after {
+    position: absolute;
+    z-index: 3;
     width: 100%;
     height: 100%;
-    z-index: 1;
     content: "";
     display: block;
-    position: absolute;
+    opacity: .93;
 }
 
 .main-navbar .main-navbar-menu {
@@ -115,7 +115,7 @@
 }
 
 .main-navbar .items div.fa {
-    color: #fff;
+    color: hsla(0,0%,100%,.8);
     text-shadow: 1px 1px 1px #ccc;
     font-size: 1.5em;
     transition: all 100ms ease;
@@ -124,7 +124,7 @@
 
 .main-navbar .items div.label {
     position: relative;
-    color: #fff;
+    color: hsla(0,0%,100%,.8);
     top: 5px;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;

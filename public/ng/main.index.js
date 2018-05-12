@@ -24,7 +24,8 @@ var r = (function mainFun() {
 
                         return $ocLazyLoad.load([
                             'ng/directives/login/login.directive.js',
-                            'ng/directives/login/login.controller.js'
+                            'ng/directives/login/login.controller.js',
+                            'ng/factory/auth.Factory.js'
 
                         ]
                         );
