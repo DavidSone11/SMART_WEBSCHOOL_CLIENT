@@ -1,6 +1,6 @@
 <div>
 
-    <h1>userplanPlan</h1>
+    <h1>USER PLAN</h1>
 
 
 
@@ -12,35 +12,37 @@
                 <div class="card-header">userplan</div>
                 <div class="card-body">
                     <loading ng-hide="!isloading" label="loading..." is-load="isloading"> </loading>
-                    <table ng-hide="isloading">
-                        <thead>
-                            <tr>
-                                <th>PLANNAME</th>
-                                <th>REVIEWER</th>
-                                <th>OWNER</th>
-                                <th>UNDERREVIEW</th>
-                                <th>ISCOMPLETE</th>
-                                <th>LINK GENERATED</th>
-                                <th>MARKDELETE</th>
-                            </tr>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover" ng-hide="isloading">
+                            <thead>
+                                <tr>
+                                    <th>PLANNAME</th>
+                                    <th>REVIEWER</th>
+                                    <th>OWNER</th>
+                                    <th>UNDERREVIEW</th>
+                                    <th>ISCOMPLETE</th>
+                                    <th>LINK GENERATED</th>
+                                    <th>MARKDELETE</th>
+                                </tr>
 
 
 
-                        </thead>
-                        <tbody>
-                            <tr ng-repeat="userplan in userplans">
-                                <td>{{userplan.planName }}</td>
-                                <td>{{userplan.reviewer}}</td>
-                                <td>{{userplan.owner}}</td>
-                                <td>{{userplan.isComplete}}</td>
-                                <td>{{userplan.isUnderReview}}</td>
-                                <td>{{userplan.isLocked}}</td>
-                                <td>{{userplan.isLinkGenerated}}</td>
-                                <td>{{userplan.markDelete}}</td>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="userplan in userplans">
+                                    <td>{{userplan.planName }}</td>
+                                    <td>{{userplan.reviewer}}</td>
+                                    <td>{{userplan.owner}}</td>
+                                    <td>{{userplan.isComplete}}</td>
+                                    <td>{{userplan.isUnderReview}}</td>
+                                    <td>{{userplan.isLocked}}</td>
+                                    <td>{{userplan.isLinkGenerated}}</td>
+                                    <td>{{userplan.markDelete}}</td>
 
-                            </tr>
-                        </tbody>
-                    </table>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
