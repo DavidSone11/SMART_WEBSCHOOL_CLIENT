@@ -1,57 +1,43 @@
 <div>
 
-    <h1>UserPlan</h1>
+    <h1>userplanPlan</h1>
 
-    
+
 
     <div class="row">
         <div class="col-lg-12">
 
             <div class="card">
-                <!-- <greet-user></greet-user> -->
-                <div class="card-header">User</div>
+                <!-- <greet-userplan></greet-userplan> -->
+                <div class="card-header">userplan</div>
                 <div class="card-body">
                     <loading ng-hide="!isloading" label="loading..." is-load="isloading"> </loading>
                     <table ng-hide="isloading">
                         <thead>
                             <tr>
-                                <th>NAME</th>
-                                <th>USERNAME</th>
-                                <th>EMAIL</th>
-                                <th>PHONE</th>
-                                <th>WEBSITE</th>
-                                <th colspan="4">ADDRESS</th>
-                                <th colspan="2">GEOGRAPHICAL</th>
+                                <th>PLANNAME</th>
+                                <th>REVIEWER</th>
+                                <th>OWNER</th>
+                                <th>UNDERREVIEW</th>
+                                <th>ISCOMPLETE</th>
+                                <th>LINK GENERATED</th>
+                                <th>MARKDELETE</th>
                             </tr>
 
-                            <tr>
-                                <th>&nbsp;</th>
-                                <th>&nbsp;</th>
-                                <th>&nbsp;</th>
-                                <th>&nbsp;</th>
-                                <th>&nbsp;</th>
-                                <th>STREET</th>
-                                <th>SUITE</th>
-                                <th>CITY</th>
-                                <th>ZIP-CODE</th>
-                                <th>LATITUDE</th>
-                                <th>LONGITUDE</th>
-                            </tr>
+
 
                         </thead>
                         <tbody>
-                            <tr ng-repeat="user in users">
-                                <td>{{user.name }}</td>
-                                <td>{{user.username}}</td>
-                                <td>{{user.email}}</td>
-                                <td>{{user.phone}}</td>
-                                <td>{{user.website}}</td>
-                                <td>{{user.address.street}}</td>
-                                <td>{{user.address.suite}}</td>
-                                <td>{{user.address.city}}</td>
-                                <td>{{user.address.zipcode}}</td>
-                                <td>{{user.address.geo.lat}}</td>
-                                <td>{{user.address.geo.lng}}</td>
+                            <tr ng-repeat="userplan in userplans">
+                                <td>{{userplan.planName }}</td>
+                                <td>{{userplan.reviewer}}</td>
+                                <td>{{userplan.owner}}</td>
+                                <td>{{userplan.isComplete}}</td>
+                                <td>{{userplan.isUnderReview}}</td>
+                                <td>{{userplan.isLocked}}</td>
+                                <td>{{userplan.isLinkGenerated}}</td>
+                                <td>{{userplan.markDelete}}</td>
+
                             </tr>
                         </tbody>
                     </table>
