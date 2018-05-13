@@ -30,6 +30,27 @@
         height: 500px;
         margin-top: 30%;
     }
+    .registeration-box {
+        width: 400px;
+        height: 500px;
+        margin-top: 20%;
+    }
+    .forget-password-box {
+        width: 400px;
+        height: 500px;
+        margin-top: 20%;
+    }
+    .forget-password-box h1 {
+        padding: 7px 54px 0 70px;
+        color: #FFFF00 !important;
+        opacity: 0.5;
+        font-size: 25px;
+    }
+    .forget-password-box p {
+        margin: 10px 0 0 90px;
+        color: #8E44AD!important;
+        opacity: 0.8;
+    }
     nav .nav-right {
         margin: 0px -216px 0px -73px !important;
     }
@@ -77,7 +98,21 @@
     }
     .login-box {
         width: 400px;
-        height: 500px;
-        margin-top: 0%;
+        height: 550px;
+        margin-top: 2%;
+    }
+    .registeration-box {
+        top: 1%!important;
+    }
+
+    .forget-password-box {
+        width: 600px;
+        height: 420px;
+        top:0;
+    }
+    .forget-password-box h1{
+        padding: 8px 170px;
+        color:#FFFF00!important;
+        opacity: 0.5;
     }
 }
