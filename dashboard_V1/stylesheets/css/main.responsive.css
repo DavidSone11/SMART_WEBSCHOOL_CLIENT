@@ -31,7 +31,7 @@
         margin-top: 30%;
     }
     nav .nav-right {
-        margin-left: 10px;
+        margin: 0px -216px 0px -73px !important;
     }
 }
 
@@ -41,6 +41,9 @@
     }
     nav {
         left: 260px;
+    }
+    nav .nav-right {
+        margin: 0px 0px 0px 0px !important;
     }
     .side-nav ul li {
         text-align: left;

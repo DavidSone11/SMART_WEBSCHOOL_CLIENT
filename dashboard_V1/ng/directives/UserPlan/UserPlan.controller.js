@@ -16,11 +16,11 @@ app.controller("UserPlanController", ['$scope', '$timeout', '$http', '$sce', fun
             $scope.isloading = false;
         });
 
-        $http.jsonp($scope.usersPlanUrl).then(function (response) {
-            $scope.data = response;
-        }, function errorCallback(response) {
-            // ko
-        });
+        // $http.jsonp($scope.usersPlanUrl).then(function (response) {
+        //     $scope.data = response;
+        // }, function errorCallback(response) {
+        //     // ko
+        // });
 
 
 
