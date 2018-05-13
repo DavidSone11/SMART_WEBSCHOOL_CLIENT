@@ -1,6 +1,6 @@
 
 var app = angular.module("dIApp");
-app.controller("UserPlanController",  ['$scope','$timeout','$http',function($scope,$timeout,$http) {
+app.controller("UserPlanController", ['$scope', '$timeout', '$http', function ($scope, $timeout, $http,$sce) {
     $scope.userplans = [];
     $scope.isloading = true;
 
@@ -9,6 +9,13 @@ app.controller("UserPlanController",  ['$scope','$timeout','$http',function($sco
             $scope.userplans = response.data.results;
             $scope.isloading = false;
         });
-    }, 2000)
+
+        $http.jsonp('http://localhost:4000/api/v1/userPlan/getPlans?callback=JSON_CALLBACK&limit=5&page=1&order=planName').then(function (response) {
+            $scope.data = response;
+        });
+
+
+
+    }, 1000)
 
 }]);
