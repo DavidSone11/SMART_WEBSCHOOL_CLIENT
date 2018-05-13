@@ -6,10 +6,12 @@
   "description": "This is the test of DI(dependency Injection ) in angular js",
   "main": "index.js",
   "keywords": [
-    "angular",
-    "js",
-    "node",
-    "js"
+    "angularjs",
+    "nodejs",
+    "javascripts",
+    "bootstrap4",
+    "css3",
+    "sass"
   ],
   "license": "MIT",
   "homepage": "www.bit.com",
@@ -25,6 +27,10 @@
     "bootstrap": "4.0",
     "jquery": "^3.3.1",
     "angular": "^1.7.0",
-    "angular-sanitize": "^1.7.0"
+    "angular-sanitize": "^1.7.0",
+    "angular-ui-router": "^1.0.17",
+    "oclazyload": "^1.1.0",
+    "angular-animate": "^1.7.0",
+    "angular-loading-bar": "^0.9.0"
   }
 }
