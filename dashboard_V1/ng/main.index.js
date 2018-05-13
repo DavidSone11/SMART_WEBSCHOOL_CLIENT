@@ -91,13 +91,30 @@ var r = (function mainFun() {
                     getAllcomments: function () {
                         $http.get("https://jsonplaceholder.typicode.com/comments").then(function success(successResponse) {
 
-                           // console.log(successResponse);
+                            // console.log(successResponse);
 
                         }, function error(errorResponse) {
 
                         });
                     }
                 }
-            });
+            }).state('home.userplan', {
+                url: '/plan',
+                template: '<user-plan></user-plan>',
+                controller: 'UserPlanController',
+                resolve: {
+                    loadAllMyDirectives: ['$ocLazyLoad', function ($ocLazyLoad) {
+
+                        return $ocLazyLoad.load([
+                            'ng/directives/UserPlan/UserPlan.controller.js',
+                            'ng/directives/UserPlan/UserPlan.directive.js',
+                            'ng/custom-directives/loading-spinner.directive.js',
+
+                        ]
+                        );
+                    }],
+
+                }
+            })
     });
 }());
