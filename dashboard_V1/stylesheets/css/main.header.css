@@ -1,6 +1,6 @@
 nav {
     height: 70px;
-    background:#BDC3C7;
+    background:#fff;
     opacity: 0.9;
     z-index: 4;
     position: absolute;
@@ -11,8 +11,8 @@ nav {
     box-sizing: border-box;
     width: 100%;
     box-shadow: 2px 2px 7px 2px #fff;
-    border-bottom: 2px solid greenyellow;
-    border-left: 2px solid greenyellow;
+    border-bottom: 2px solid maroon;
+    /* border-left: 2px solid greenyellow; */
 }
 
 nav .nav-left {
