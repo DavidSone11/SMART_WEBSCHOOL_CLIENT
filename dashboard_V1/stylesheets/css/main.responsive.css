@@ -1,3 +1,7 @@
+@media(max-width:450px) {}
+
+@media (max-width:450px) and (max-width:540px) {}
+
 @media screen and (min-width:600px) {
     .side-nav {
         width: 80px;
@@ -48,7 +52,7 @@
     }
     .forget-password-box p {
         margin: 10px 0 0 90px;
-        color: #8E44AD!important;
+        color: #8E44AD !important;
         opacity: 0.8;
     }
     nav .nav-right {
@@ -102,17 +106,16 @@
         margin-top: 2%;
     }
     .registeration-box {
-        top: 1%!important;
+        top: 1% !important;
     }
-
     .forget-password-box {
         width: 600px;
         height: 420px;
-        top:0;
+        top: 0;
     }
-    .forget-password-box h1{
+    .forget-password-box h1 {
         padding: 8px 170px;
-        color:#FFFF00!important;
+        color: #FFFF00 !important;
         opacity: 0.5;
     }
 }
