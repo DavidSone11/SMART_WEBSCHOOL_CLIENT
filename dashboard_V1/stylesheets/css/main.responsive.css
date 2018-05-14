@@ -11,6 +11,17 @@
         padding: 40px 0px 0px 80px;
         font-size: 0.9rem;
     }
+
+    .login-box input[type="submit"].login-button {
+        color: #fff;
+        background: #F1C40F;
+     
+    }
+    .login-box input[type="submit"].login-button:hover {
+        color: #fff;
+        background: #F1C40F;
+     
+    }
 }
 
 @media (max-width:451px) and (max-width:540px) {
