@@ -1,11 +1,15 @@
 @media(max-width:450px) {
     .login-box {
         width: 250px;
-        height: 500px;
-        margin-top: 5%;
+        margin: 2px 0 0 0!important;
+        border-radius: 5px;
     }
     .login-wrapper {
+        overflow-y: hidden!important;
+        overflow-x: hidden!important;
         background: url(../../../images/68660575-school-wallpapers.jpg);
+        background-size: cover;
+        background-position: center;
     }
     .login-box h1 {
         padding: 40px 0px 0px 80px;
@@ -19,7 +23,7 @@
     }
     .login-box input[type="submit"].login-button:hover {
         color: #fff;
-        background: #F1C40F;
+        background: #D35400!important;
      
     }
 }
