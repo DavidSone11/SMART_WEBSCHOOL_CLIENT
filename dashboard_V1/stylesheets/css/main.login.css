@@ -112,6 +112,24 @@
     
 }
 
+.login-box [type="button"].login-cancel-button {
+    height: 40px;
+    width: 380px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #F4D03F;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.login-box [type="button"].login-cancel-button:hover {
+    background: #E67E22;
+
+}
+
 .registeration-box {
     width: 500px;
     height: 600px;
