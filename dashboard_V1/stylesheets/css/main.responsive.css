@@ -1,12 +1,12 @@
 @media(max-width:450px) {
     .login-box {
         width: 250px;
-        margin: 2px 0 0 0!important;
+        margin: 2px 0 0 0 !important;
         border-radius: 5px;
     }
     .login-wrapper {
-        overflow-y: hidden!important;
-        overflow-x: hidden!important;
+        overflow-y: hidden !important;
+        overflow-x: hidden !important;
         background: url(../../../images/68660575-school-wallpapers.jpg);
         background-size: cover;
         background-position: center;
@@ -15,17 +15,32 @@
         padding: 40px 0px 0px 80px;
         font-size: 0.9rem;
     }
-
     .login-box input[type="submit"].login-button {
         color: #fff;
         background: #F1C40F;
-     
     }
     .login-box input[type="submit"].login-button:hover {
         color: #fff;
-        background: #D35400!important;
-     
+        background: #D35400 !important;
     }
+
+    .forget-password-box {
+        width: 300px;
+        height: 500px;
+        margin: 2px 0 0 0 !important;
+    }
+    .forget-password-box h1 {
+        padding: 7px 0px 0 50px;
+        color: #212F3D !important;
+        opacity: 0.8;
+        font-size: 20px;
+    }
+    .forget-password-box p {
+        margin: 10px 0 0 90px;
+        color: #8E44AD !important;
+        opacity: 0.8;
+    }
+
 }
 
 @media (max-width:451px) and (max-width:540px) {
