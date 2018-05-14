@@ -36,9 +36,15 @@
         font-size: 20px;
     }
     .forget-password-box p {
+        margin: 10px 0 0 10px;
+        color: #C0392B !important;
+        opacity: 1;
+        font-size: 12px;
+    }
+    .forget-password-box i {
         margin: 10px 0 0 90px;
-        color: #8E44AD !important;
-        opacity: 0.8;
+        color: #fff !important;
+        opacity: 1;
     }
 
 }
