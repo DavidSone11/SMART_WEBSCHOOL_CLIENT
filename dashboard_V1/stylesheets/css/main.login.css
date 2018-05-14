@@ -1,7 +1,7 @@
 .login-wrapper {
     margin: 0;
     padding: 0;
-    background: url(../../../images/68599044-school-wallpapers.jpg);
+    background: url(../../../images/68660575-school-wallpapers.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -50,7 +50,7 @@
     height: 100px;
     border-radius: 50%;
     position: absolute;
-    top: -12%;
+    top: -10%;
     left: calc( 50% - 50px);
 }
 
