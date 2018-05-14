@@ -208,13 +208,31 @@
     border: none;
     outline: none;
     color: #fff;
-    background: #000;
+    background: #58D68D;
     font-size: 15px;
     cursor: pointer;
     border-radius: 20px;
 }
 
 .forget-password-box input[type="submit"].reset-password-button:hover {
+    color: #fff;
+    background: rgba(202, 215, 14, 0.9) !important;
+    
+}
+
+.forget-password-box input[type="button"].only-reset-password-button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #000;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.forget-password-box input[type="button"].only-reset-password-button:hover {
     color: #fff;
     background: rgba(202, 215, 14, 0.9) !important;
     

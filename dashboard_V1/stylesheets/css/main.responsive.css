@@ -178,8 +178,8 @@
     }
     .forget-password-box {
         width: 600px;
-        height: 420px;
-        top: 0;
+        height: 550px;
+        margin: 1px 0 0 0!important;
     }
     .forget-password-box h1 {
         padding: 8px 170px;
